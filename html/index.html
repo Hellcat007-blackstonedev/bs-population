@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Population Debug</title>
+</head>
+<body>
+    <aside id="panel" class="hidden">
+        <header>
+            <div>
+                <div id="brand" class="eyebrow">SERVER DEV</div>
+                <h1 id="title">Population Monitor</h1>
+            </div>
+            <span id="status" class="status">ACTIVE</span>
+        </header>
+
+        <section class="meta">
+            <div><span>Time</span><strong id="time">--:--</strong></div>
+            <div><span>Profile</span><strong id="profile">---</strong></div>
+            <div><span>Zone</span><strong id="zone">---</strong></div>
+            <div><span>Area</span><strong id="area">---</strong></div>
+        </section>
+
+        <section>
+            <div class="section-title">Density multipliers</div>
+            <div class="labels"><span>BASE</span><span>TARGET</span><span>APPLIED</span></div>
+            <div id="densityRows"></div>
+            <p class="hint">Applied is the multiplier bs-population sends to GTA every frame.</p>
+            <div class="heartbeat"><span>Apply loop</span><strong id="heartbeat">---</strong><span id="frameCount">0 frames</span></div>
+        </section>
+
+        <section>
+            <div class="section-title">Observed nearby</div>
+            <div class="observed">
+                <div><strong id="obsPeds">0</strong><span>Peds</span></div>
+                <div><strong id="obsVehicles">0</strong><span>Vehicles</span></div>
+                <div><strong id="obsParked">0</strong><span>Stopped</span></div>
+            </div>
+            <p class="hint">Entity counts within <span id="radius">100</span>m. Existing NPCs do not instantly despawn when density drops.</p>
+        </section>
+
+        <footer id="footer">F7 / /popdebug to hide</footer>
+    </aside>
+    <script src="app.js"></script>
+</body>
+</html>
