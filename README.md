@@ -11,18 +11,18 @@ Rather than applying one population setting across the entire map, each player e
 Population naturally changes throughout the day, including morning and afternoon peak traffic, daytime activity, nightlife, late-night decline, and near-empty early-morning streets.
 
 ## Features
-Time-based population — Different densities throughout the in-game day.
-Location-aware population — Population varies between GTA V zones and area types.
-Peak-hour traffic — Increased traffic during morning and afternoon commuting periods.
-Nightlife activity — Selected areas remain busier into the night.
-Dead hours — Near-zero pedestrian activity and heavily reduced traffic during the quietest hours.
-Independent density control — Separate control of pedestrians, traffic and parked vehicles.
-Smooth transitions — Population changes gradually between normal profiles.
-Full GTA V zone mapping — Standard GTA V zones are configured out of the box.
-Server-owner friendly configuration — Easily customise profiles, zones, area types and density levels.
-Built-in debug monitor — View zones, profiles, target/applied densities and nearby population in real time.
-Integration exports — Other resources can access current or zone-specific population data.
-Standalone & lightweight — No framework, database or external assets required.
+Time-based population — Different densities throughout the in-game day.  
+Location-aware population — Population varies between GTA V zones and area types.  
+Peak-hour traffic — Increased traffic during morning and afternoon commuting periods.  
+Nightlife activity — Selected areas remain busier into the night.  
+Dead hours — Near-zero pedestrian activity and heavily reduced traffic during the quietest hours.  
+Independent density control — Separate control of pedestrians, traffic and parked vehicles.  
+Smooth transitions — Population changes gradually between normal profiles.  
+Full GTA V zone mapping — Standard GTA V zones are configured out of the box.  
+Server-owner friendly configuration — Easily customise profiles, zones, area types and density levels.  
+Built-in debug monitor — View zones, profiles, target/applied densities and nearby population in real time.  
+Integration exports — Other resources can access current or zone-specific population data.  
+Standalone & lightweight — No framework, database or external assets required.  
 
 ## Installation
 
