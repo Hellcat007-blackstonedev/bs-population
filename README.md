@@ -2,19 +2,27 @@
 
 Dynamic ambient population control for FiveM. `bs-population` changes GTA V's naturally generated pedestrians, moving traffic, and parked vehicles according to time of day and location.
 
-## Features
+## About
 
-- Time-of-day population profiles
-- Morning and afternoon peak-hour traffic
-- Nightlife-specific population behaviour
-- Very low overnight/dead-hour population
-- City, suburban, rural-town, rural, and wilderness density categories
-- Zone-specific nightlife and peak-hour boosts
-- Smooth transitions between normal profile changes
-- Immediate correction after large clock jumps from admin/time-sync resources
-- Optional in-game population debug monitor
-- Config validation warnings for common setup mistakes
-- Standalone: no framework dependency
+bs-population is a dynamic population controller for FiveM that adjusts ambient pedestrian and vehicle density based on both time of day and player location.
+
+Rather than applying one population setting across the entire map, each player experiences population levels appropriate to where they are. For example, a player standing on Vinewood Boulevard around midnight can experience a busy nightlife population, while another player in Strawberry at exactly the same time can experience significantly quieter streets.
+
+Population naturally changes throughout the day, including morning and afternoon peak traffic, daytime activity, nightlife, late-night decline, and near-empty early-morning streets.
+
+## Features
+Time-based population — Different densities throughout the in-game day.
+Location-aware population — Population varies between GTA V zones and area types.
+Peak-hour traffic — Increased traffic during morning and afternoon commuting periods.
+Nightlife activity — Selected areas remain busier into the night.
+Dead hours — Near-zero pedestrian activity and heavily reduced traffic during the quietest hours.
+Independent density control — Separate control of pedestrians, traffic and parked vehicles.
+Smooth transitions — Population changes gradually between normal profiles.
+Full GTA V zone mapping — Standard GTA V zones are configured out of the box.
+Server-owner friendly configuration — Easily customise profiles, zones, area types and density levels.
+Built-in debug monitor — View zones, profiles, target/applied densities and nearby population in real time.
+Integration exports — Other resources can access current or zone-specific population data.
+Standalone & lightweight — No framework, database or external assets required.
 
 ## Installation
 
