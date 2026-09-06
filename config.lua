@@ -185,6 +185,19 @@ Config.AreaTypes = {
         nightlifeTraffic = 0.72,
     },
 
+    -- Coastal recreation areas. GTA commonly reports OCEANA while standing
+    -- on the sand, so this category intentionally keeps daytime foot traffic
+    -- high while reducing road traffic compared with a normal city zone.
+    beach = {
+        label = 'Beach',
+        peds = 1.10,
+        traffic = 0.55,
+        parked = 0.80,
+        peakTraffic = 0.90,
+        nightlifePeds = 0.55,
+        nightlifeTraffic = 0.60,
+    },
+
     ruralTown = {
         label = 'Rural Town',
         peds = 0.48,
@@ -265,16 +278,16 @@ Config.DefaultAreaType = 'suburbs'
 
 Config.ZoneTypes = {
     -- ========================================================================
-    -- LOS SANTOS - DENSE URBAN / COMMERCIAL
+    -- LOS SANTOS - DENSE URBAN / COMMERCIAL + COASTAL
     -- ========================================================================
     AIRP = 'city',       -- Los Santos International Airport
     ALTA = 'city',       -- Alta
     BANNING = 'city',    -- Banning
-    BEACH = 'city',      -- Vespucci Beach
+    BEACH = 'beach',     -- Vespucci Beach
     BURTON = 'city',     -- Burton
     CHAMH = 'city',      -- Chamberlain Hills
     DAVIS = 'city',      -- Davis
-    DELBE = 'city',      -- Del Perro Beach
+    DELBE = 'beach',     -- Del Perro Beach
     DELPE = 'city',      -- Del Perro
     DELSOL = 'city',     -- La Puerta
     DOWNT = 'city',      -- Downtown
@@ -370,10 +383,10 @@ Config.ZoneTypes = {
     MTCHIL = 'wilderness',-- Mount Chiliad
     MTGORDO = 'wilderness',-- Mount Gordo
     MTJOSE = 'wilderness',-- Mount Josiah
-    OCEANA = 'wilderness',-- Pacific Ocean
+    OCEANA = 'beach',    -- Pacific Ocean / coastal sand strips
     PALCOV = 'wilderness',-- Paleto Cove
     PALFOR = 'wilderness',-- Paleto Forest
-    PROCOB = 'wilderness',-- Procopio Beach
+    PROCOB = 'beach',    -- Procopio Beach
     PROL = 'wilderness',  -- Prologue / North Yankton
     TATAMO = 'wilderness',-- Tataviam Mountains
 }
